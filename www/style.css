@@ -1,0 +1,526 @@
+
+.rounded {
+counter-reset: li;
+list-style: none;
+font-size: 18px;
+font-family: 'Montserrat', sans-serif;
+padding: 0;
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+.rounded a {
+position: relative;
+display: block;
+padding: .8em .4em .4em 2em;
+margin: .5em 0;
+background: white;
+color: black;
+text-decoration: none;
+border-radius: .3em;
+transition: .3s ease-out;
+top:80px;
+}
+.rounded a:hover {background: #DC143C; color:white;}
+.rounded a:hover:before {transform: rotate(360deg);}
+.rounded a:before {
+content: counter(li);
+counter-increment: li;
+position: absolute;
+left: -1.3em;
+top: 50%;
+margin-top: -1.3em;
+background: #DC143C;
+height: 2em;
+width: 2em;
+line-height: 2em;
+border: .3em solid white;
+text-align: center;
+font-weight: bold;
+border-radius: 2em;
+transition: all .4s ease-out;
+}
+#header{
+  position: fixed;
+  height:650px;
+  width:200px;
+  background: white;
+}
+#iconcoffee{
+  height:94.5px;
+  width: 205.2.61px;
+}
+.cards{
+  position: relative;
+  top:90px;
+  left:20px;
+}
+#maes{
+  width: 41.6px;
+  height:32px;
+}
+#mc{
+  width: 42.6px;
+  height:32px;
+}
+#visa{
+  width: 63.2px;
+  height:32px;
+}
+#iconcoffee{
+  position:relative;
+  top:50px;
+  left:10px;
+}
+.photos{
+  position: relative;
+  width: 207.35px;
+  height: 366.6px;
+  left:300px;
+}
+.submenu{
+  position: relative;
+  text-decoration: none;
+  color:black;
+font-family: 'Montserrat', sans-serif;
+  left:480px;
+  margin-left: 15px;
+  bottom:55px;
+}
+.submenu1{
+    display: inline-block;
+}
+#cofeinya{
+  position: relative;
+  top:40px;
+  right:197px;
+}
+#dostavka{
+  position: relative;
+  bottom:60px;
+   left:15px;
+}
+#menu{
+  position: relative;
+  bottom:60px;
+  left:20px;
+}
+#onas{
+  position: relative;
+  bottom:60px;
+  left:100px;
+}
+#franshiza{
+  position: relative;
+  bottom:60px;
+  left:165.5px;
+}
+.submenu:hover{
+  color: #DC143C;
+}
+#zagalovok{
+  position: absolute;
+  left:310px;
+font-family: 'Ultra', serif;
+  bottom:120px;
+}
+#newsspng{
+  position: relative;
+  bottom:20px;
+  left:290px;
+}
+#zagalovokcofein{
+  position: absolute;
+  left:300px;
+font-family: 'Ultra', serif;
+  top:880px;
+}
+.premium-title{
+  position: relative;
+  top:170px;
+  right:745px;
+  /*border-style: solid;*/
+  /*border-width: 1px;*/
+  padding: 2px 15px 2px 15px;
+  border: 1px solid #0a0a0a;
+  display: inline-block;
+  border-radius:15px;
+  color:black;
+  font-family: 'Montserrat', sans-serif;
+}
+@media only screen and (max-width: 1024px) {
+.premium-title {
+    font-size:9px;
+    font-weight:600;
+}
+.express-title {
+    font-size:9px;
+    font-weight:600;
+}
+.since-title {
+    font-size:9px;
+    font-weight:600;
+}
+}
+.premium-title span{
+    font-weight:500;
+    color:#0a0a0a;
+}
+.express-title {
+  position: relative;
+  top:145px;
+  left:300px;
+    padding: 2px 15px 2px 15px;
+    border: 1px solid #666666;
+    display: inline-block;
+    border-radius:15px;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+}
+.express-title span {
+    color:#666666;
+    font-weight:500;
+}
+.since-title {
+  position: relative;
+  top:145px;
+  left:1050px;
+    padding: 2px 15px 2px 15px;
+    border: 1px solid #896e5b;
+    display: inline-block;
+    border-radius:15px;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+}
+.since-title span {
+    font-weight:500;
+    color:#896e5b;
+}
+#address1{
+  position: absolute;
+  top:1040px;
+  left:300px;
+}
+#address2{
+  position: absolute;
+  top:1040px;
+  left:1080px;
+}
+.classes{
+  position: absolute;
+  right:30px;
+  top:200px;
+}
+.topBox{
+  display: inline-block;
+  position: fixed;
+  bottom: 5rem;
+  right: 2rem;
+  padding: 1rem 1.5rem;
+  transition: .5s ease;
+  display:none;
+}
+#arrow{
+  font-size: 50px;
+  color:grey;
+}
+
+.topBox:hover,
+.topBox:focus{
+  filter: brightness(0.5);
+  outline:none;
+  bottom: 5.5rem;
+
+}
+.rounded .menu-link1:hover:before {transform: rotate(0deg);}
+#group{
+  position: absolute;
+  width: 1088.64px;
+  height:416.745px;
+  left:278px;
+  bottom:240px;
+}
+.cfboom{
+  position: absolute;
+  top:460px;
+  width:500px;
+  height:300px;
+  left:290px;
+  font-family: 'Montserrat', sans-serif;
+}
+#smallcof{
+    position: absolute;
+    left:840px;
+}
+#setcoff{
+  position: absolute;
+  top:850px;
+}
+#sinc2010{
+  position: absolute;
+  top:1000px;
+}
+#premium{
+  position: absolute;
+  top:1000px;
+  left:648px;
+}
+#express{
+  position: absolute;
+  top:1000px;
+  left:1005px;
+}
+#cafeshki{
+  position: absolute;
+  top:1065px;
+  left:288px;
+}
+#base{
+  position: absolute;
+  top:1330px;
+  width:250px;
+  height: 400px;
+}
+#basepremium{
+  position: absolute;
+  top:1330px;
+  width:250px;
+  height: 400px;
+  left:645px;
+}
+#baseexpress{
+  position: absolute;
+  top:-2.2px;
+  width:250px;
+  height: 400px;
+  left:360px;
+}
+#cakepng{
+  position: absolute;
+  top:1710px;
+  left:270px;
+}
+#basefriends{
+  position: absolute;
+  top:2150px;
+  width:650px;
+  height: 400px;
+  left:278px;
+}
+#bodymenu{
+    background:url('Eda.PNG');
+}
+#contact{
+  position: absolute;
+  top:40px;
+  width:500px;
+  height:300px;
+  left:340px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+    text-transform:uppercase;
+}
+.title1{
+  text-transform:uppercase;
+   font-weight: 700;
+   margin-top:40px;
+}
+#poscont{
+  position: absolute;
+   top:100px;
+   left:342px;
+}
+#citysel{
+  position: absolute;
+   top:120px;
+   left:530px;
+   color:grey;
+}
+.cities{
+  position: absolute;
+  font-size: 40px;
+  font-weight: 600;
+    text-transform:uppercase;
+  font-family: 'Staatliches', cursive;
+  left:350px;
+  top:250px;
+}
+#almaty{
+  position: absolute;
+  left:700px;
+}
+#pavlodar{
+position: absolute;
+left:1000px;
+}
+.overlay-loader {
+	display: block;
+	margin: auto;
+	width: 97px;
+	height: 97px;
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 97px;
+	height: 97px;
+	animation-name: rotateAnim;
+		-o-animation-name: rotateAnim;
+		-ms-animation-name: rotateAnim;
+		-webkit-animation-name: rotateAnim;
+		-moz-animation-name: rotateAnim;
+	animation-duration: 0.4s;
+		-o-animation-duration: 0.4s;
+		-ms-animation-duration: 0.4s;
+		-webkit-animation-duration: 0.4s;
+		-moz-animation-duration: 0.4s;
+	animation-iteration-count: infinite;
+		-o-animation-iteration-count: infinite;
+		-ms-animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+	animation-timing-function: linear;
+		-o-animation-timing-function: linear;
+		-ms-animation-timing-function: linear;
+		-webkit-animation-timing-function: linear;
+		-moz-animation-timing-function: linear;
+}
+.loader div {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	border: 1px solid rgb(0,0,0);
+	position: absolute;
+	top: 2px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.loader div:nth-child(odd) {
+	border-top: none;
+	border-left: none;
+}
+.loader div:nth-child(even) {
+	border-bottom: none;
+	border-right: none;
+}
+.loader div:nth-child(2) {
+	border-width: 2px;
+	left: 0px;
+	top: -4px;
+	width: 12px;
+	height: 12px;
+}
+.loader div:nth-child(3) {
+	border-width: 2px;
+	left: -1px;
+	top: 3px;
+	width: 18px;
+	height: 18px;
+}
+.loader div:nth-child(4) {
+	border-width: 3px;
+	left: -1px;
+	top: -4px;
+	width: 23px;
+	height: 23px;
+}
+.loader div:nth-child(5) {
+	border-width: 3px;
+	left: -1px;
+	top: 4px;
+	width: 31px;
+	height: 31px;
+}
+.loader div:nth-child(6) {
+	border-width: 4px;
+	left: 0px;
+	top: -4px;
+	width: 39px;
+	height: 39px;
+}
+.loader div:nth-child(7) {
+	border-width: 4px;
+	left: 0px;
+	top: 6px;
+	width: 49px;
+	height: 49px;
+}
+
+
+@keyframes rotateAnim {
+	from {
+		transform: rotate(360deg);
+	}
+	to {
+		transform: rotate(0deg);
+	}
+}
+
+@-o-keyframes rotateAnim {
+	from {
+		-o-transform: rotate(360deg);
+	}
+	to {
+		-o-transform: rotate(0deg);
+	}
+}
+
+@-ms-keyframes rotateAnim {
+	from {
+		-ms-transform: rotate(360deg);
+	}
+	to {
+		-ms-transform: rotate(0deg);
+	}
+}
+
+@-webkit-keyframes rotateAnim {
+	from {
+		-webkit-transform: rotate(360deg);
+	}
+	to {
+		-webkit-transform: rotate(0deg);
+	}
+}
+
+@-moz-keyframes rotateAnim {
+	from {
+		-moz-transform: rotate(360deg);
+	}
+	to {
+		-moz-transform: rotate(0deg);
+	}
+}
+.preloader{
+ position: fixed;
+ background-color: white;
+ display: flex;
+ height: 100%;
+ width: 100%;
+ z-index: 9999;
+ top: 0;
+   left: 0;
+
+}
+.form{
+  position: absolute;
+  left: 500px;
+  top: 350px;
+  right:200px;
+}
+.reg{
+  position: absolute;
+  border:1px solid black;
+  left:300px;
+  font-size: 15px;
+  line-height: 2px;
+}
